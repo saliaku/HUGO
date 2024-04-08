@@ -15,7 +15,9 @@ Before we begin, ensure you have the following:
 ## Step 2: Create a New Hugo Site
 1. Open your terminal or command prompt.
 2. Run the following command to create a new Hugo site:
+    ```bash
     hugo new site <your_site_name>
+    ```
 
 
 ## Step 3: Choose a Theme
@@ -41,11 +43,15 @@ Before we begin, ensure you have the following:
 
 ## Step 8: Push Your Site to GitHub
 1. Add your GitHub repository as a remote origin:
+    ```bash
     git remote add origin <repository_url>
+    ```
 2. Add all files, commit, and push to GitHub:
+        ```bash
     git add .
     git commit -m "Initial commit"
     git push -u origin master
+    ```
 
 
 ## Step 9: Enable GitHub Pages
