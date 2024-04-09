@@ -195,6 +195,14 @@ jobs:
 6. Commit the change to your local repository with a commit message of something like “Add workflow”, and push to GitHub.
 7. From GitHub’s main menu, choose Actions. You will see something like this:
 ![My Image2](https://gohugo.io/hosting-and-deployment/hosting-on-github/gh-pages-3.png)
+8. When GitHub has finished building and deploying your site, the color of the status indicator will change to green.
+![My Image3](https://gohugo.io/hosting-and-deployment/hosting-on-github/gh-pages-3.png)
+9.Click on the commit message as shown above. You will see this:
+![My Image4](https://gohugo.io/hosting-and-deployment/hosting-on-github/gh-pages-5.png)
+
+Under the deploy step, you will see a link to your live site.
+
+In the future, whenever you push a change from your local repository, GitHub will rebuild your site and deploy the changes.
 
 ## Conclusion
 Your Hugo website is now hosted on GitHub Pages! You can further customize your site, add more content, and update it easily by rebuilding your site with Hugo and pushing changes to GitHub.
