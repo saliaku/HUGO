@@ -33,11 +33,12 @@ my-site/
 ├── assets/
 ├── content/
 ├── data/
-├── i18n/
 ├── layouts/
+├── public/
+├── resources/
 ├── static/
 ├── themes/
-└── hugo.toml         <-- site configuration
+└── config.toml         <-- site configuration
 ```
 <!-- 
 1. Download a theme into the same-named folder.
@@ -53,6 +54,19 @@ Visit https://gohugo.io/ for quickstart guide and full documentation.
 ## Step 3: Choose a Theme
 1. Explore themes from the [Hugo themes directory](https://themes.gohugo.io/).
 2. Follow the documentation of your chosen theme to install it into your Hugo site.
+3.Here we are using this command to install the ananke theme to the themes folder
+
+```bash
+git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+```
+4. Add this line to the config.toml file
+```bash
+echo "theme = 'ananke'" >> hugo.toml
+```
+5. Now you are ready to run your hugo website in localhost
+```bash
+hugo server
+```
 
 ## Step 4: Add Content
 1. Navigate to the `content` directory of your Hugo site.
