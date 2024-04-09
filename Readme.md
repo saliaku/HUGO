@@ -75,7 +75,7 @@ Visit https://gohugo.io/ for quickstart guide and full documentation.
 3.Here we are using this command to install the ananke theme to the themes folder
 
 ```bash
-    git clone https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+    git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
 ```
 4. Add this line to the config.toml file, to define the theme that is going to be used for your website. You can use any theme that you prefer. 
 ```bash
@@ -211,10 +211,16 @@ jobs:
 
 6. Commit the change to your local repository with a commit message of something like “Add workflow”, and push to GitHub.
 7. From GitHub’s main menu, choose Actions. You will see something like this:
+
 ![My Image2](https://gohugo.io/hosting-and-deployment/hosting-on-github/gh-pages-3.png)
+
 8. When GitHub has finished building and deploying your site, the color of the status indicator will change to green.
+
+
 ![My Image3](https://gohugo.io/hosting-and-deployment/hosting-on-github/gh-pages-3.png)
+
 9.Click on the commit message as shown above. You will see this:
+
 ![My Image4](https://gohugo.io/hosting-and-deployment/hosting-on-github/gh-pages-5.png)
 
 Under the deploy step, you will see a link to your live site.
