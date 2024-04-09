@@ -98,7 +98,7 @@ hugo -d /path/to/your/directory
         ```bash
     git add .
     git commit -m "Initial commit"
-    git push -u origin master
+    git push -u origin main
     ```
 ## Step 8: Enable GitHub Pages
 1. Go to your repository's settings on GitHub.
