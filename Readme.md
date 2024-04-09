@@ -39,9 +39,6 @@ my-site/
 ├── themes/
 └── hugo.toml         <-- site configuration
 ```
-```
-
-
 <!-- 
 1. Download a theme into the same-named folder.
    Choose a theme from https://themes.gohugo.io/ or
