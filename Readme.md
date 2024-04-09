@@ -12,17 +12,17 @@ Before we begin, ensure you have the following:
 1. Download Hugo from the [official releases page](https://github.com/gohugoio/hugo/releases).
 2. Follow the installation instructions for your operating system. 
 3. Verify that you have installed latest version of Hugo
-    ```bash
+```bash
     hugo version
-    ```
+```
 
 ### Step 2: Create a New Hugo Site
 
 1. Open your terminal or command prompt.
 2. Run the following command to create a new Hugo site:
-    ```bash
+```bash
     hugo new site <your_site_name>
-    ```
+```
 
 A similar directory structure will be created:
 
@@ -58,7 +58,7 @@ Visit https://gohugo.io/ for quickstart guide and full documentation.
 3.Here we are using this command to install the ananke theme to the themes folder
 
 ```bash
-git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+    git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
 ```
 4. Add this line to the config.toml file, to define the theme that is going to be used for your website. You can use any theme that you prefer. 
 ```bash
@@ -66,7 +66,7 @@ echo "theme = 'ananke'" >> config.toml
 ```
 5. Now you are ready to run your hugo website in localhost. Press Ctrl + C to stop Hugo’s development server.
 ```bash
-hugo server
+    hugo server
 ```
 
 ## Step 4: Add Content
@@ -80,11 +80,11 @@ hugo server
 ## Step 6: Build Your Site
 1. Run the following command to generate the static files for your site:
 ```bash
-hugo
+    hugo
 ```
     or
 ```bash
-hugo -d /path/to/your/directory
+    hugo -d /path/to/your/directory
 ```
 
 
@@ -92,7 +92,7 @@ hugo -d /path/to/your/directory
 1. Create a Github repository.
 2. Add your GitHub repository as a remote origin:
 ```bash
-git remote add origin <repository_url>
+    git remote add origin <repository_url>
 ```
 3. Add all files, commit, and push to GitHub:
 ```bash
