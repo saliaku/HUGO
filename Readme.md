@@ -40,6 +40,7 @@ my-site/
 ├── themes/
 └── config.toml         <-- site configuration
 ```
+
 <!-- 
 1. Download a theme into the same-named folder.
    Choose a theme from https://themes.gohugo.io/ or
@@ -59,11 +60,11 @@ Visit https://gohugo.io/ for quickstart guide and full documentation.
 ```bash
 git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
 ```
-4. Add this line to the config.toml file
+4. Add this line to the config.toml file, to define the theme that is going to be used for your website. You can use any theme that you prefer. 
 ```bash
-echo "theme = 'ananke'" >> hugo.toml
+echo "theme = 'ananke'" >> config.toml
 ```
-5. Now you are ready to run your hugo website in localhost
+5. Now you are ready to run your hugo website in localhost. Press Ctrl + C to stop Hugo’s development server.
 ```bash
 hugo server
 ```
@@ -78,6 +79,13 @@ hugo server
 
 ## Step 6: Build Your Site
 1. Run the following command to generate the static files for your site:
+```bash
+hugo
+```
+or
+```bash
+hugo -d /path/to/your/directory
+```
 
 
 ## Step 7: Set Up a GitHub Repository
