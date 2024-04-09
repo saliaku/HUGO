@@ -45,7 +45,7 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
-          path: quickstart
+          path: hugo/quickstart
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
