@@ -56,7 +56,7 @@ my-site/
 Visit https://gohugo.io/ for quickstart guide and full documentation.
 -->
 
-## Step 7: Initialize the Github repository
+## Step 3: Initialize the Github repository
 1. Create a Github repository.
 2. Add your GitHub repository as a remote origin:
 ```bash
@@ -64,12 +64,12 @@ Visit https://gohugo.io/ for quickstart guide and full documentation.
     git add .
     git commit -m "first commit"
     git branch -M main
-    git remote add origin git@github.com:saliaku/happy_website.git
+    git remote add origin git@github.com:<USER_NAME>>/<REPOSITORY_NAME>.git
     git push -u origin main
 ```
 
 
-## Step 3: Choose a Theme
+## Step 4: Choose a Theme
 1. Explore themes from the [Hugo themes directory](https://themes.gohugo.io/).
 2. Follow the documentation of your chosen theme to install it into your Hugo site.
 3.Here we are using this command to install the ananke theme to the themes folder
@@ -86,15 +86,15 @@ echo "theme = 'ananke'" >> config.toml
     hugo server
 ```
 
-## Step 4: Add Content
+## Step 5: Add Content
 1. Navigate to the `content` directory of your Hugo site.
 2. Create Markdown or HTML files to add your content (e.g., pages, blog posts).
 
-## Step 5: Configure Site Settings
+## Step 6: Configure Site Settings
 1. Modify the `config.toml` or `config.yaml` file in your Hugo site's root directory.
 2. Configure settings such as site title, description, and other options specific to your site and chosen theme.
 
-## Step 6: Build Your Site
+## Step 7: To Build Your Site
 1. Run the following command to generate the static files for your site:
 ```bash
     hugo
@@ -105,18 +105,6 @@ echo "theme = 'ananke'" >> config.toml
 ```
 
 
-## Step 7: Push Your Site to GitHub
-1. Create a Github repository.
-2. Add your GitHub repository as a remote origin:
-```bash
-    git remote add origin <repository_url>
-```
-3. Add all files, commit, and push to GitHub:
-```bash
-    git add .
-    git commit -m "Initial commit"
-    git push -u origin main
-```
 ## Step 8: Enable GitHub Pages
 1. Go to your repository's settings on GitHub.
 2. Navigate to the "Pages" section. In the center of your screen you will see this:
@@ -209,7 +197,12 @@ jobs:
         uses: actions/deploy-pages@v4
 ```
 
-6. Commit the change to your local repository with a commit message of something like “Add workflow”, and push to GitHub.
+6. Commit the change to your local repository with a commit message of something like “Added workflow”, and push to GitHub.
+```bash
+    git add .
+    git commit -m "Added workflow"
+    git push -u origin main
+```
 7. From GitHub’s main menu, choose Actions. You will see something like this:
 
 ![My Image2](https://gohugo.io/hosting-and-deployment/hosting-on-github/gh-pages-3.png)
