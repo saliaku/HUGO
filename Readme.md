@@ -88,17 +88,13 @@ hugo -d /path/to/your/directory
 ```
 
 
-## Step 7: Set Up a GitHub Repository
-1. Create a new repository on GitHub.
-2. Initialize it with a README.md file.
-3. Ensure the repository name matches your GitHub username (e.g., `<username>.github.io`) to enable GitHub Pages.
-
-## Step 8: Push Your Site to GitHub
-1. Add your GitHub repository as a remote origin:
+## Step 7: Push Your Site to GitHub
+1.Create a Github repository.
+2. Add your GitHub repository as a remote origin:
     ```bash
     git remote add origin <repository_url>
     ```
-2. Add all files, commit, and push to GitHub:
+3. Add all files, commit, and push to GitHub:
         ```bash
     git add .
     git commit -m "Initial commit"
@@ -106,7 +102,7 @@ hugo -d /path/to/your/directory
     ```
 
 
-## Step 9: Enable GitHub Pages
+## Step 8: Enable GitHub Pages
 1. Go to your repository's settings on GitHub.
 2. Navigate to the "Pages" section.
 3. Set the source branch to `master` or `main`, depending on your repository's default branch.
