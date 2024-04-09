@@ -82,7 +82,7 @@ hugo server
 ```bash
 hugo
 ```
-or
+    or
 ```bash
 hugo -d /path/to/your/directory
 ```
@@ -100,8 +100,6 @@ hugo -d /path/to/your/directory
     git commit -m "Initial commit"
     git push -u origin master
     ```
-
-
 ## Step 8: Enable GitHub Pages
 1. Go to your repository's settings on GitHub.
 2. Navigate to the "Pages" section.
