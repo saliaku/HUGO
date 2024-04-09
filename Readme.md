@@ -23,6 +23,10 @@ Before we begin, ensure you have the following:
 ```bash
     hugo new site <your_site_name>
 ```
+3. Move into the folder created
+```bash
+  cd <your_site_name>
+```
 
 A similar directory structure will be created:
 
@@ -52,13 +56,26 @@ my-site/
 Visit https://gohugo.io/ for quickstart guide and full documentation.
 -->
 
+## Step 7: Initialize the Github repository
+1. Create a Github repository.
+2. Add your GitHub repository as a remote origin:
+```bash
+    git init
+    git add .
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin git@github.com:saliaku/happy_website.git
+    git push -u origin main
+```
+
+
 ## Step 3: Choose a Theme
 1. Explore themes from the [Hugo themes directory](https://themes.gohugo.io/).
 2. Follow the documentation of your chosen theme to install it into your Hugo site.
 3.Here we are using this command to install the ananke theme to the themes folder
 
 ```bash
-    git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+    git clone https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
 ```
 4. Add this line to the config.toml file, to define the theme that is going to be used for your website. You can use any theme that you prefer. 
 ```bash

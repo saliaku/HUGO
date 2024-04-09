@@ -45,7 +45,6 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
-          path: HUGO/quickstart
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
@@ -57,7 +56,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          hugo -d quickstart/ \
+          hugo \
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"          
