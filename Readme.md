@@ -103,7 +103,9 @@ echo "theme = 'ananke'" >> config.toml
 ## Step 8: Enable GitHub Pages
 1. Go to your repository's settings on GitHub.
 2. Navigate to the "Pages" section. In the center of your screen you will see this:
-![My Image](https://gohugo.io/hosting-and-deployment/hosting-on-github/gh-pages-1.png)
+![My Image0](https://gohugo.io/hosting-and-deployment/hosting-on-github/gh-pages-1.png)
+3. Change the Source to GitHub Actions. The change is immediate; you do not have to press a Save button.
+![My Image1](https://gohugo.io/hosting-and-deployment/hosting-on-github/gh-pages-2.png)
 
 3. Set the source branch to `master` or `main`, depending on your repository's default branch.
 
