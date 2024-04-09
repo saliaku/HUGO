@@ -91,11 +91,11 @@ hugo -d /path/to/your/directory
 ## Step 7: Push Your Site to GitHub
 1.Create a Github repository.
 2. Add your GitHub repository as a remote origin:
-    ```bash
-    git remote add origin <repository_url>
-    ```
+```bash
+git remote add origin <repository_url>
+```
 3. Add all files, commit, and push to GitHub:
-        ```bash
+```bash
     git add .
     git commit -m "Initial commit"
     git push -u origin main
