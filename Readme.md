@@ -89,7 +89,7 @@ hugo -d /path/to/your/directory
 
 
 ## Step 7: Push Your Site to GitHub
-1.Create a Github repository.
+1. Create a Github repository.
 2. Add your GitHub repository as a remote origin:
 ```bash
 git remote add origin <repository_url>
@@ -99,7 +99,7 @@ git remote add origin <repository_url>
     git add .
     git commit -m "Initial commit"
     git push -u origin main
-    ```
+```
 ## Step 8: Enable GitHub Pages
 1. Go to your repository's settings on GitHub.
 2. Navigate to the "Pages" section.
