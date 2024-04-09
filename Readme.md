@@ -10,7 +10,11 @@ Before we begin, ensure you have the following:
 
 ## Step 1: Install Hugo
 1. Download Hugo from the [official releases page](https://github.com/gohugoio/hugo/releases).
-2. Follow the installation instructions for your operating system.
+2. Follow the installation instructions for your operating system. 
+3. Verify that you have installed latest version of Hugo
+    '''bash
+    hugo version
+    '''
 
 ## Step 2: Create a New Hugo Site
 1. Open your terminal or command prompt.
@@ -18,6 +22,15 @@ Before we begin, ensure you have the following:
     ```bash
     hugo new site <your_site_name>
     ```
+
+    <!-- 1. Download a theme into the same-named folder.
+   Choose a theme from https://themes.gohugo.io/ or
+   create your own with the "hugo new theme <THEMENAME>" command.
+    2. Perhaps you want to add some content. You can add single files
+   with "hugo new <SECTIONNAME>/<FILENAME>.<FORMAT>".
+    3. Start the built-in live server via "hugo server".
+
+    Visit https://gohugo.io/ for quickstart guide and full documentation. -->
 
 
 ## Step 3: Choose a Theme
