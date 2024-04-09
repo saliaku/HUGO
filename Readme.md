@@ -12,9 +12,9 @@ Before we begin, ensure you have the following:
 1. Download Hugo from the [official releases page](https://github.com/gohugoio/hugo/releases).
 2. Follow the installation instructions for your operating system. 
 3. Verify that you have installed latest version of Hugo
-    '''bash
+    ```bash
     hugo version
-    '''
+    ```
 
 ## Step 2: Create a New Hugo Site
 1. Open your terminal or command prompt.
